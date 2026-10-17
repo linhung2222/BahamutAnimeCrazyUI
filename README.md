@@ -38,10 +38,8 @@ Instead of standard anime covers, this special edition features **30 relatable i
 
 | 📱 App Screenshot | 🎬 Operation Demo (GIF) |
 | :---: | :---: |
-| <img src="screenshot.png" alt="App Screenshot" width="300" /> | <img src="demo.gif" alt="Operation Demo GIF" width="300" /> |
+| ![App Screenshot](screenshot.png) | ![Operation Demo GIF](demo.gif) |
 | *Home Screen — Seasonal Anime Grid* | *Smooth Vertical Scrolling & Heart Favorite Toggle* |
-
-> 📌 **Tip:** Place your screenshot file as `screenshot.png` and screen recording GIF as `demo.gif` in the project root directory (or replace the `src` paths above with your image links).
 
 ---
 
@@ -69,8 +67,8 @@ Instead of standard anime covers, this special edition features **30 relatable i
 ```text
 模仿動畫瘋app畫面/
 ├── README.md                        # 📄 Project documentation (EN / ZH-TW)
-├── screenshot.png                   # 📱 App screenshot
-├── demo.gif                         # 🎬 App operation GIF
+├── screenshot.png                   # 📱 App home screen screenshot
+├── demo.gif                         # 🎬 App operation & scrolling demo GIF
 └── 模仿動畫瘋app畫面/
     ├── MyApp.swift                  # 🚀 App entry point (@main)
     ├── ContentView.swift            # 📱 Main layout combining Header, ScrollView Grid, TabBar & FABs
@@ -130,10 +128,8 @@ Instead of standard anime covers, this special edition features **30 relatable i
 
 | 📱 App 畫面截圖 (Screenshot) | 🎬 實際操作展示 (Operation GIF) |
 | :---: | :---: |
-| <img src="screenshot.png" alt="App 畫面截圖" width="300" /> | <img src="demo.gif" alt="App 操作 GIF" width="300" /> |
+| ![App 畫面截圖](screenshot.png) | ![App 操作 GIF](demo.gif) |
 | *動畫瘋首頁 — 本季新番雙欄瀑布流* | *上下滑動瀏覽 30 部迷因新番 & 點擊愛心收藏* |
-
-> 📌 **小提示：** 請將截圖命名為 `screenshot.png`、操作錄影轉檔命名為 `demo.gif` 並放置於專案根目錄（或直接替換上方表格中的圖片連結）。
 
 ---
 
