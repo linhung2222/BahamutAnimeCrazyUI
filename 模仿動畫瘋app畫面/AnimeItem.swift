@@ -1,16 +1,27 @@
 import Foundation
 
+/// 單筆動畫作品的資料模型
+/// 遵循 `Identifiable` 協定，供 SwiftUI 的 `ForEach` 列表識別與渲染每張動畫卡片
 struct AnimeItem: Identifiable {
+    /// 唯一識別碼（UUID）
     let id = UUID()
+    /// 動畫作品標題（本專案採用網路迷因梗圖主題命名）
     let title: String
+    /// 對應 `Assets.xcassets` 中的封面縮圖資源名稱（例如：`anime_01` ～ `anime_30`）
     let imageName: String
+    /// 最新一集上架的日期與時間字串（例如：`"10/16 (五) 00:58"`）
     let dateTime: String
+    /// 最新更新集數文字（例如：`"第2集"`）
     let episode: String
+    /// 累計觀看次數字串（例如：`"2.9萬"`）
     let views: String
+    /// 是否為需要「付費會員（VIP）」資格才能觀看的番劇
     let isVIPOnly: Bool
 }
 
+// MARK: - 內建範例資料（30 部迷因主題新番）
 extension AnimeItem {
+    /// 首頁「本季新番」雙欄列表所使用的 30 筆迷因番劇範例資料
     static let sampleData: [AnimeItem] = [
         AnimeItem(
             title: "你行你上！",
